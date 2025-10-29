@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.12.10 on win32)" generated="2025-10-29T12:04:26.878165" rpa="false" schemaversion="5">
+<suite id="s1" name="Test1" source="C:\Users\Welli\OneDrive\Documentos\teste.robot\test1.robot">
+<test id="s1-t1" name="Abrir três sites em sequência" line="19">
+<kw name="Abrir Site">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-29T12:04:30.452836" level="INFO">Opening browser 'chrome' to base url 'https://robotframework.org/'.</msg>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-10-29T12:04:30.452836" elapsed="4.762099"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-10-29T12:04:38.216175" level="INFO">Slept 3 seconds.</msg>
+<arg>${TEMPO_ESPERA}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-10-29T12:04:35.215933" elapsed="3.000242"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-29T12:04:38.216175" elapsed="2.268028"/>
+</kw>
+<arg>${ROBOT}</arg>
+<status status="PASS" start="2025-10-29T12:04:30.450839" elapsed="10.033364"/>
+</kw>
+<kw name="Abrir Site">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-29T12:04:40.486217" level="INFO">Opening browser 'chrome' to base url 'https://www.petz.com.br/'.</msg>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-10-29T12:04:40.486217" elapsed="6.444909"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-10-29T12:04:49.931253" level="INFO">Slept 3 seconds.</msg>
+<arg>${TEMPO_ESPERA}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-10-29T12:04:46.931126" elapsed="3.000127"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-29T12:04:49.931253" elapsed="2.233894"/>
+</kw>
+<arg>${PETZ}</arg>
+<status status="PASS" start="2025-10-29T12:04:40.485215" elapsed="11.679932"/>
+</kw>
+<kw name="Abrir Site">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-10-29T12:04:52.167184" level="INFO">Opening browser 'chrome' to base url 'https://shopee.com.br/?'.</msg>
+<arg>${url}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-10-29T12:04:52.167184" elapsed="7.294905"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-10-29T12:05:02.463553" level="INFO">Slept 3 seconds.</msg>
+<arg>${TEMPO_ESPERA}</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-10-29T12:04:59.462089" elapsed="3.001464"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-10-29T12:05:02.463553" elapsed="2.226709"/>
+</kw>
+<arg>${SHOPEE}</arg>
+<status status="PASS" start="2025-10-29T12:04:52.166193" elapsed="12.524069"/>
+</kw>
+<status status="PASS" start="2025-10-29T12:04:30.449424" elapsed="34.241815"/>
+</test>
+<status status="PASS" start="2025-10-29T12:04:26.881707" elapsed="37.810913"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test1" id="s1" pass="1" fail="0" skip="0">Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
